@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework: ERROR
+
+server:
+  port: 8761
