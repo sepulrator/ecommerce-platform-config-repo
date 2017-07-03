@@ -2,21 +2,12 @@ logging:
   level:
     org.springframework: INFO
 
-#security:
-#  oauth2:
-#    client:
-#      clientId: product-microservice
-#      clientSecret: ${ACCOUNT_SERVICE_PASSWORD}
-#      accessTokenUri: http://auth-server:5000/uaa/oauth/token
-#      grant-type: client_credentials
-#      scope: server
-
 spring:
   data:
     mongodb:
       host: product-mongodb
       username: user
-      password: ${MONGODB_PASSWORD}
+      password: password123
       database: ecommerce-db
       port: 27017
 
