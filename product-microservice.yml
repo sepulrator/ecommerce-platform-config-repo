@@ -13,4 +13,4 @@ spring:
 
 server:
   context-path: /products
-  port: 6000
+  port: 8000
